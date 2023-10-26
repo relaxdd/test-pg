@@ -1,8 +1,8 @@
 {
   "name": "test-pg",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "Тестирование подключения к бд postgresql на примере модели с юзерами",
+  "main": "src/index.ts",
   "scripts": {
     "start": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node src/index.ts --mode development\"",
     "serve": "ts-node src/index.ts --mode production"
